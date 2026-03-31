@@ -69,10 +69,10 @@ nav a:hover {
 .btn {
   background-color: #333;
   color: white;
-  padding: 10px 24px;
+  padding: 10px 20px;
   border: none;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   cursor: pointer;
   /* Con trỏ hình bàn tay */
@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .products h2 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 800;
   margin-bottom: 28px;
   text-align: center;
@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .product-card h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -136,9 +136,7 @@ nav a:hover {
   margin-bottom: 12px;
 }
 
-/* =============================
-   FOOTER - CHÂN TRANG
-   ============================= */
+
 .footer {
   background-color: #333;
   color: white;
