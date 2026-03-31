@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* =============================
+   NAVBAR - THANH ĐIỀU HƯỚNG
+   ============================= */
+.navbar {
+  background-color: #ffffff;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #e44d26;
+}
+
+nav a {
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #e44d26;
+}
+
+
+.banner {
+  background-color: #e85c39;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.banner h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  /* Con trỏ hình bàn tay */
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn:hover {
+  background-color: #e44d26;
+  /* Đổi màu khi hover */
+}
+
+
+.products {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.products h2 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* Lưới sản phẩm: 4 cột bằng nhau */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 cột */
+  gap: 20px;
+  /* Khoảng cách giữa các ô */
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.product-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #e44d26;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+/* =============================
+   FOOTER - CHÂN TRANG
+   ============================= */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+}
